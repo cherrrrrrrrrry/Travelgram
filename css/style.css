@@ -1,0 +1,228 @@
+aside .block {
+	padding: .5em;
+	background-color: white;
+	box-shadow: .25em .25em 1em #c3c3c3;
+	margin: .5em;
+	text-align: center;
+}
+
+aside .block a {
+	color: #3c3c3c;
+}
+
+aside .block a:hover {
+	color: #D7042D;
+}
+
+aside .block-1 iframe {
+	width: 100%;
+}
+
+aside .block-2 {
+	padding: 2.5em;
+}
+
+aside .block-2 .follow span {
+	display: block;font-size: 1.25em;
+	font-weight: bold;
+	color: gray;
+	margin: 1.5em 0 1em 0;
+	text-transform: uppercase;
+}
+
+aside .block-2 .follow img {
+	width: 1.5em;
+	opacity: .75;
+	cursor: pointer;
+}
+
+aside .block-2 .follow img:hover {
+	opacity: 1;
+}
+
+aside .block-3 ul {
+	padding: 0 !important;
+}
+
+aside .block-3 li {
+	border-bottom: 1px solid #c3c3c3;
+	margin: .5em 5em;
+	padding: .5em 0;
+}
+
+aside .block-4 {
+	padding: .5em;
+}
+
+aside .block-4 .tags-line {
+	display: flex;
+}
+
+aside .block-4 a {
+	width: 100%;
+	font-size: .75em;
+	padding: 1em;
+	margin: 1em;
+	border: 1px solid #c3c3c3;
+	border-radius: 5em;
+	
+}
+
+aside .block-4 a:hover {
+	background-color: #d7042d;
+	color: white;
+	text-decoration: underline;
+}
+
+aside .block-5 {
+	padding: .5em 2em .5em .5em;
+}
+
+aside .block-5 input[type="text"] {
+	display: block;
+	font-size: 1em;
+	outline: none;
+	background-color: #ebebeb;
+	border: none;
+	width: 100%;
+	margin: .5em 0;
+	padding: .5em;
+	color: #3c3c3c;
+}
+
+aside .block-5 textarea {
+	resize: none;
+	outline: none;
+	font-size: 1em;
+	width: 100%;
+	border: none;
+	background-color: #ebebeb;
+	padding: .5em;
+	display: flex;
+	margin: .5em 0;
+	color: #3c3c3c;
+	height: 200px;
+}
+
+aside .block-5 input[type="submit"] {
+	border: none;
+	background-color: #D7042D;
+	padding: 1em 1.5em;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: flex;
+	border-radius: .25em;
+}
+
+aside .block-5 input[type="submit"]:hover {
+	text-decoration: underline;
+}
+
+main .cart {
+	padding: 1.5em;
+	box-shadow: .25em .25em 1em #c3c3c3;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: .5em;
+	background-color: white;
+}
+
+main .cart .text>span,
+main .cart .text p {
+	margin-bottom: 2.5em !important;
+}
+
+main .cart-1 .text>span,
+main .cart-1 .text p,
+main .cart-2 .text>span,
+main .cart-2 .text p {
+	margin-bottom: 8em !important;
+}
+
+main .cart-1 .text h2,
+main .cart-1 .text p,
+main .cart-1 .btns,
+main .cart-2 .text h2,
+main .cart-2 .text p,
+main .cart-2 .btns {
+	margin: .5em;
+}
+
+main .cart-1 h3,
+main .cart-2 h3 {
+	margin: .35em !important;
+}
+
+main .cart .btns,
+main .cart .btns .share  {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+main .cart .btns .share {
+	align-items: center;
+}
+
+main .cart .btns .share span {
+	font-size: 1.25em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: gray;
+}
+
+main .cart .btns .share img {
+	width: 1.5em;
+	cursor: pointer;
+	opacity: .75;
+}
+
+main .cart .btns .share img:hover {
+	opacity: 1;
+}
+
+main .cart>img {
+	width: 25em;
+}
+
+main .cart-3,
+main .cart-4,
+main .cart-5,
+main .cart-6 {
+	display: block;
+}
+
+main .cart-3>img,
+main .cart-4>img,
+main .cart-5>img,
+main .cart-6>img {
+	width: 100%;
+}
+
+main .double-carts {
+	display: flex;
+}
+
+main .pages {
+	text-align: center;
+	margin: 2.5em 0;
+}
+
+main .pages a {
+	color: #D7042D;
+	font-size: 1em;
+	margin: .5em;
+	font-weight: bold;
+	border-radius: 50%;
+	border: 1px solid #d7042d;
+	padding: .5em 1em;
+	transition: .25s;
+}
+
+main .pages a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: #d7042d;
+}
